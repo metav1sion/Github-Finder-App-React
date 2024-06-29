@@ -1,0 +1,22 @@
+//$body-bg: blue;
+//$body-bg: #f2f2f2;
+
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-icons/font/bootstrap-icons";
+
+.avatar{
+  width: 100%;
+}
+
+/* App.css veya ilgili CSS dosyanıza ekleyin */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Yüksekliği tam ekran yapar */
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
